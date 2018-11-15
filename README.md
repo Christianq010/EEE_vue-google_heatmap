@@ -27,4 +27,7 @@ yarn run lint
 
 ## Resources
 
-* https://github.com/bobby-white/vue-google-heatmap#readme
+* Google heat maps docs - https://developers.google.com/maps/documentation/javascript/examples/layer-heatmap
+* Vue google heat maps - https://github.com/bobby-white/vue-google-heatmap#readme
+* Firebase and Vue JS -
+https://medium.com/codingthesmartway-com-blog/vue-js-2-firebase-e4b2479e35a8
