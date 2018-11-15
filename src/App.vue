@@ -2,9 +2,9 @@
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/DMU-logo.jpg" class="logo"> -->
     <Map />
-    <div v-for="signal in signals" v-bind:key="signal.timestamp">
+    <!-- <div v-for="signal in signals" v-bind:key="signal.timestamp">
       <p>{{signal.latitude}}</p>
-    </div>
+    </div> -->
     <HelloWorld msg="Telecom Signal Strength Data App"/>
   </div>
 </template>
@@ -12,19 +12,19 @@
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 import Map from "./components/Map.vue";
-import Firebase from "firebase";
-let config = {
-  apiKey: "AIzaSyDUDOGJNvWpaZ2BrIDJny4vgVfJl7cOG3U",
-  authDomain: "fieldtest-b5a57.firebaseapp.com",
-  databaseURL: "https://fieldtest-b5a57.firebaseio.com",
-  projectId: "fieldtest-b5a57",
-  storageBucket: "fieldtest-b5a57.appspot.com",
-  messagingSenderId: "390084766159"
-};
+// import Firebase from "firebase";
+// let config = {
+//   apiKey: "AIzaSyDUDOGJNvWpaZ2BrIDJny4vgVfJl7cOG3U",
+//   authDomain: "fieldtest-b5a57.firebaseapp.com",
+//   databaseURL: "https://fieldtest-b5a57.firebaseio.com",
+//   projectId: "fieldtest-b5a57",
+//   storageBucket: "fieldtest-b5a57.appspot.com",
+//   messagingSenderId: "390084766159"
+// };
 
-let app = Firebase.initializeApp(config);
-let db = app.database();
-let signalRef = db.ref("database");
+// let app = Firebase.initializeApp(config);
+// let db = app.database();
+// let signalRef = db.ref("database");
 
 // JSON at "https://fieldtest-b5a57.firebaseio.com/database.json";
 
@@ -34,9 +34,9 @@ export default {
     HelloWorld,
     Map
   },
-  firebase: {
-    signals: signalRef
-  },
+  // firebase: {
+  //   signals: signalRef
+  // },
   data() {
     return {
       newSignal: {
@@ -47,7 +47,6 @@ export default {
     };
   }
 };
-console.log(signalRef);
 </script>
 
 <style>
