@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/DMU-logo.jpg" class="logo"> -->
+    <img alt="Vue logo" src="./assets/DMU-logo.jpg" class="logo">
     <Map />
     <!-- <div v-for="signal in signals" v-bind:key="signal.timestamp">
       <p>{{signal.latitude}}</p>

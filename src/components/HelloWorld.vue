@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      <!-- Final year project for BEng in Electrical and Electronic Engineering -->
+      Final year project for BEng in Electrical and Electronic Engineering
       <!-- <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>. -->
     </p>
     <h3>Android app source code</h3>
