@@ -1,3 +1,5 @@
+Deployed link - https://eee_final-project.surge.sh/
+
 # google-maps-vue
 
 - First build mobile app
